@@ -1,3 +1,7 @@
+# English Windows / iPad web edition
+
+See **[English setup guide](docs/english-web.md)** for the Windows-hosted English interface, catalog translation, download queue, and shared offline library. Run `pnpm web:build` then `start-web.cmd`. This is separate from the original Tauri client below.
+
 <div align="center">
 
 <img src="hghubx.svg" alt="HGhubX" width="128" height="128" />

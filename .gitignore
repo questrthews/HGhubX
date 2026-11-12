@@ -31,3 +31,8 @@ docs/API.md
 
 # Agent instructions (local)
 AGENTS.md
+
+# English web build and local configuration
+dist-web/
+.env
+.env.*

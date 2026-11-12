@@ -19,7 +19,11 @@
     "android:init": "tauri android init",
     "android:icons": "node scripts/sync-android-icons.mjs",
     "android:dev": "tauri android dev",
-    "android:build": "tauri android build"
+    "android:build": "tauri android build",
+    "web:build": "tsc --project tsconfig.web.json && vite build --config vite.web.config.ts",
+    "web:start": "node server/index.mjs",
+    "test:web": "node --test server/security.test.mjs server/download.test.mjs",
+    "test:web:browser": "node --test server/browser.test.mjs"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.12.4",
